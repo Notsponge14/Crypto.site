@@ -1,0 +1,1100 @@
+*{
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+}
+
+
+body {
+    background: linear-gradient(270.26deg, #C548AB -3.4%, #635BFF 101.08%);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.main-container1 h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  color: white;
+  padding-left: 50px;
+  padding-top: 60px;
+}
+
+.main-container1 .img1 {
+  position: absolute;
+  left: 46vw;
+  padding-top: 50px;
+}
+
+.main-container1 h1 {
+  color: white;
+  position: relative;
+  color: white;
+  left: 29.6vw;
+  font-size: 1.5rem;
+  font-size: 6rem;
+  bottom: 40px;
+}
+
+.main-container1 h3 {
+  position: relative;
+  color: white;
+  left: 1100px;
+  font-size: 1.5rem;
+  bottom: 60px;
+}
+
+main {
+  background: radial-gradient(123.22% 129.67% at 100.89% -5.6%, #201D47 0%, #17153A 100%);
+  position: absolute;
+  width: 73vw;
+  height: 85vh;
+  left: 13.7vw;
+  border-radius: 20px 20px 0 0px;
+}
+
+li {
+  background: radial-gradient(123.22% 129.67% at 100.89% -5.6%, #201D47 0%, #17153A 100%);
+  width: 19vw;
+  height: 41vh;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.ul1 {
+  position: absolute;
+  color: white;
+  font-size: 1.3rem;
+  bottom: 70vh;
+  left: 5vw;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.ul2 {
+  position: absolute;
+  left: 5.9vw;
+  color:#6F6C99;
+  top: 25vh;
+  font-weight: 400;
+  transition: 0.3s;
+  font-size: 1.3rem;
+}
+
+.ul3 {
+  position: absolute;
+  left: 5.9vw;
+  color:#6F6C99;
+  top: 32vh;
+  font-weight: 400;
+  transition: 0.3s;
+  font-size: 1.3rem;
+}
+
+.ul4 {
+  position: absolute;
+  left: 5.9vw;
+  color:#6F6C99;
+  top: 39vh;
+  font-weight: 400;
+  transition: 0.3s;
+  font-size: 1.3rem;
+}
+
+.ul5 {
+  position: absolute;
+  left: 5.9vw;
+  color:#6F6C99;
+  top: 46vh;
+  font-weight: 400;
+  transition: 0.3s;
+  font-size: 1.3rem;
+}
+
+
+.img2 {
+  position: absolute;
+  left: 4vw;
+  top: 10.2vh;
+  width: 2vw;
+  cursor: pointer;
+}
+
+.logo1 {
+  position: absolute;
+  left: 5.2vw;
+  top: 26.5vh;
+  width: 1.2vw;
+  cursor: pointer;
+}
+
+.logo2 {
+  position: absolute;
+  left: 5.2vw;
+  top: 33.4vh;
+  width: 1.2vw;
+  cursor: pointer;
+}
+
+.logo3 {
+  position: absolute;
+  left: 5.2vw;
+  top: 40.3vh;
+  width: 1.2vw;
+  cursor: pointer;
+}
+
+.logo4 {
+  position: absolute;
+  left: 5.2vw;
+  top: 47.5vh;
+  width: 1.2vw;
+  cursor: pointer;
+}
+
+.ul2:hover {
+  color: #53B9EA;
+  cursor: pointer;
+}
+
+.ul3:hover {
+  color: #53B9EA;
+  cursor: pointer;
+}
+
+.ul4:hover {
+  color: #53B9EA;
+  cursor: pointer;
+}
+
+.ul5:hover {
+  color: #53B9EA;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.card1 {
+  background: linear-gradient(247.99deg, rgba(52, 49, 102, 0.49) 0%, rgba(41, 39, 84, 0.78) 48.89%, rgba(27, 25, 67, 0.71) 98.46%);
+  width: 22vw;
+  height: 28vh;
+  position: absolute;
+  top: 52vh;
+  right: 57vw;
+  border-radius: 20px;
+  backdrop-filter: blur(19.53114891052246px);
+  box-shadow: 20.72px 36.99px 66.59px 0px #17122B73;
+}
+
+.card-logo {
+  position: absolute;
+  left: 9.8vw;
+  scale: 1.3;
+  top: 3vh;
+}
+
+.BTC {
+  color: #6968A6;
+  position: absolute;
+  top: 12vh;
+  left: 6vw;
+  font-size: 1.2rem;
+}
+
+.Seehistory {
+  color: #70B2FF;
+  position: absolute;
+  top: 15vh;
+  left: 9.5vw;
+}
+
+.Seehistory:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card1 button {
+  position: absolute;
+  border: none;
+  height: 3.5vh;
+  width: 5vw;
+  top: 21vh;
+  left: 8.7vw;
+  background-color: #343261;
+  color: #9796CF;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1.05rem;
+}
+
+.card1 button:hover {
+  background-color: #9796CF;
+  color: #343261;
+}
+
+
+.ul2::before {
+  content: url(./images/Blue\ dot.png);
+  position: absolute;
+  left: -5.9vw;
+  top: -0.5vh;
+  opacity: 0;
+}
+
+.ul2:hover::before {
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+}
+
+.ul3::before {
+  content: url(./images/Blue\ dot.png);
+  position: absolute;
+  left: -5.9vw;
+  top: -0.5vh;
+  opacity: 0;
+}
+
+.ul3:hover::before {
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+}
+
+.ul4::before {
+  content: url(./images/Blue\ dot.png);
+  position: absolute;
+  left: -5.9vw;
+  top: -0.5vh;
+  opacity: 0;
+}
+
+.ul4:hover::before {
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+}
+
+.ul5::before {
+  content: url(./images/Blue\ dot.png);
+  position: absolute;
+  left: -5.9vw;
+  top: -0.5vh;
+  opacity: 0;
+}
+
+.ul5:hover::before {
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+}
+
+nav h3 {
+  color: white;
+  position: absolute;
+  left: 37.01vw;
+  z-index: 1;
+  font-size: 2.2rem;
+  top: 36.7vh;
+}
+
+nav p {
+  position: absolute;
+  color: #5B5A99;
+  z-index: 1;
+  left: 37.1vw;
+  top: 42.7vh;
+}
+
+nav h4 {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  left: 37.2vw;
+  top: 47vh;
+}
+
+.navimages {
+  position: absolute;
+  display: inline-block;
+  left: 70vw;
+  z-index: 1;
+}
+
+.notification {
+  position: relative;
+  top: 2.5vh;
+  scale: 1.2;
+  left: 1.6vw;
+  cursor: pointer;
+}
+
+.profile {
+  position: relative;
+  left: 2.2vw;
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.Menu {
+  position: relative;
+  left: 1.2vw;
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.search {
+  position: relative;
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.Bitcoin {
+  position: absolute;
+  bottom: 58vh;
+  width: 8.2vw;
+  height: 7vh;
+  left: 23.5vw;
+  border-radius: 10px;
+  border: 0.91px solid #312F62;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.Bitcoin-card img:nth-child(1) {
+  position: absolute;
+  bottom: 60vh;
+  left: 24.1vw;
+  scale: 1.2;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.Bitcoin-card img:nth-child(2) {
+  position: absolute;
+  bottom: 60vh;
+  left: 26.2vw;
+  z-index: 1;
+  cursor: pointer;
+  scale: 1.1;
+}
+
+
+.Bitcoin-card img:nth-child(3) {
+  position: absolute;
+  bottom: 60vh;
+  left: 28.5vw;
+  z-index: 1;
+  cursor: pointer;
+}
+
+
+.Bitcoin-card h4 {
+  color: white;
+  position: absolute;
+  bottom: 60.3vh;
+  left: 27vw;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Bitcoin-card p {
+  position: absolute;
+  bottom: 60.9vh;
+  left: 29.6vw;
+  opacity: 0.4;
+  z-index: 1;
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.Bitcoin-card h5 {
+  position: absolute;
+  bottom: 58vh;
+  color: white;
+  left: 29vw;
+  font-size: 0.7rem;
+  transition: 0.4s;
+  z-index: 1;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.Bitcoin:hover {
+  background: linear-gradient(135deg, #40DDFF 0%, #14BAE3 19.24%, #13B1E6 68.64%, #11AADF 81.77%, #0B98C5 100%);
+  z-index: 0;
+  cursor: pointer;
+}
+
+.Etherium {
+  position: absolute;
+  bottom: 58vh;
+  width: 8.2vw;
+  height: 7vh;
+  left: 33.5vw;
+  border-radius: 10px;
+  border: 0.91px solid #312F62;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.Etherium-card img:nth-child(1) {
+  position: absolute;
+  bottom: 60.5vh;
+  left: 34.5vw;
+  scale: 1.2;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.Etherium-card img:nth-child(2) {
+  position: absolute;
+  bottom: 58vh;
+  left: 37vw;
+  z-index: 1;
+  cursor: pointer;
+  scale: 1.1;
+}
+
+
+.Etherium-card img:nth-child(3) {
+  position: absolute;
+  bottom: 60vh;
+  left: 38.8vw;
+  z-index: 1;
+  cursor: pointer;
+}
+
+
+.Etherium-card h4 {
+  color: white;
+  position: absolute;
+  bottom: 60.3vh;
+  left: 37vw;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Etherium-card p {
+  position: absolute;
+  bottom: 60.9vh;
+  left: 39.6vw;
+  z-index: 1;
+  opacity: 0.4;
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.Etherium-card h5 {
+  position: absolute;
+  bottom: 58vh;
+  color: #E3507A;
+  left: 39.2vw;
+  font-size: 0.7rem;
+  transition: 0.4s;
+  z-index: 1;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.Etherium:hover {
+  background: linear-gradient(135deg, #d3212a 0%, #ee2323b0 19.24%, #ff0505 68.64%, #e91111 81.77%, #e71c1c 100%);
+  z-index: 0;
+  cursor: pointer;
+}
+
+.Litecoin {
+  position: absolute;
+  bottom: 58vh;
+  width: 8.2vw;
+  height: 7vh;
+  left: 43.5vw;
+  border-radius: 10px;
+  border: 0.91px solid #312F62;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.Litecoin-card img:nth-child(1) {
+  position: absolute;
+  bottom: 60.5vh;
+  left: 44.5vw;
+  scale: 1.2;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.Litecoin-card img:nth-child(2) {
+  position: absolute;
+  bottom: 59vh;
+  left: 47vw;
+  z-index: 1;
+  cursor: pointer;
+}
+
+
+.Litecoin-card img:nth-child(3) {
+  position: absolute;
+  bottom: 60.1vh;
+  left: 48.7vw;
+  z-index: 1;
+  cursor: pointer;
+  scale: 1.1;
+}
+
+
+.Litecoin-card h4 {
+  color: white;
+  position: absolute;
+  bottom: 60.3vh;
+  left: 47vw;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Litecoin-card p {
+  position: absolute;
+  bottom: 60.9vh;
+  left: 50vw;
+  z-index: 1;
+  opacity: 0.4;
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.Litecoin-card h5 {
+  position: absolute;
+  bottom: 58.2vh;
+  color: #50E3C2;
+  left: 49.2vw;
+  font-size: 0.7rem;
+  transition: 0.4s;
+  z-index: 1;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.Litecoin:hover {
+    background: linear-gradient(135deg, #0b9e55 0%, #09a557 19.24%, #0b9448 68.64%, #078d19 81.77%, #078f3b 100%);
+    z-index: 0;
+    cursor: pointer;
+}
+
+.main-container2 p {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 12vh;
+  color: #59588D;
+  left: 22.2vw;
+  margin: 37px;
+}
+
+.btcdot {
+  scale: 1.5;
+  position: absolute;
+  left: 28vw;
+  top: 32.3vh;
+}
+
+.ethdot {
+  scale: 1.5;
+  position: absolute;
+  left: 33vw;
+  top: 32.3vh;
+}
+
+.ltcdot {
+  scale: 1.5;
+  position: absolute;
+  left: 38vw;
+  top: 32.3vh;
+}
+
+.main-container2 h4 {
+  position: absolute;
+}
+
+.btc-h4 {
+  color: #59588D;
+  left: 29vw;
+  bottom: 50.3vh;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.eth-h4 {
+  color: #59588D;
+  left: 34vw;
+  bottom: 50.3vh;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.ltc-h4 {
+  color: #59588D;
+  left: 39vw;
+  bottom: 50.3vh;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.Time {
+
+  display: flex;
+  flex-direction: row;
+  color: #59588D;
+  position: absolute;
+  left: 27vw;
+  bottom: 5vh;
+
+}
+
+.Time p {
+  margin: 20px;
+}
+
+.yavisferi {
+  position: absolute;
+  bottom: 20vh;
+  right: 18vw;
+}
+
+.witeli {
+  position: absolute;
+  bottom: 19vh;
+  right: 15vw;
+}
+
+.mwvane {
+  position: absolute;
+  bottom: 18vh;
+  right: 15vw;
+}
+
+.blur {
+  position: absolute;
+  bottom: 18vh;
+  left: 25vw;
+}
+
+.Boxblur {
+  position: absolute;
+  bottom: 17.6vh;
+  left: 44.5vw;
+  scale: 1.5;
+  z-index: 1;
+  width: 8vw;
+  height: 35vh;
+}
+
+.Gridbase {
+  position: absolute;
+  bottom: 15vh;
+  left: 30vw;
+  scale: 1.3;
+}
+
+.card2 {
+  position: absolute;
+  width: 20vw;
+  height: 62vh;
+  bottom: 12vh;
+  left: 57vw;
+  border-radius: 20px;
+  background: linear-gradient(210.96deg, rgba(36, 33, 81, 0.74) 0.01%, rgba(38, 35, 83, 0.78) 42.05%, rgba(47, 45, 97, 1) 104.81%);
+  backdrop-filter: blur(20.352563858032227px);
+  box-shadow: -23.61px 48.85px 73.27px 0px #17122B8C;
+}
+
+.card2 p {
+  color: white;
+  position: absolute;
+  left: 1.5vw;
+  top: 2vh;
+  font-weight: 300;
+  width: 4.5vw;
+}
+
+.Clifford {
+  width: 100%;
+  height: 17vh;
+  transition: 0.6s;
+}
+
+.clifford {
+  position: absolute;
+  left: 1.7vw;
+  top: 8vh;
+  z-index: 1;
+  scale: 1.4;
+}
+
+.Clifford h3 {
+  position: absolute;
+  color: #8786AB;
+  left: 3.94vw;
+  top: 6.5vh;
+  font-weight: 500;
+  font-size: 1.1rem;
+  width: 5vw;
+}
+
+.Clifford h5 {
+  position: absolute;
+  color: #8786AB;
+  left: 9vw;
+  top: 6.4vh;
+  font-weight: 300;
+  font-size: 0.850rem;
+  width: 6vw;
+}
+
+.Clifford h4 {
+  position: absolute;
+  color:  #59588D;
+  left: 4vw;
+  top: 9vh;
+  font-weight: 500;
+  font-size: 0.950rem;
+}
+
+
+.Clifford p {
+  position: absolute;
+  color:  #59588D;
+  left: 4vw;
+  top: 11.7vh;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.Clifford:hover{
+  background-color: rgb(29, 26, 65);
+  cursor: pointer;
+  border-radius: 20px 20px 0px 0px;
+}
+
+
+.Lottie {
+  width: 100%;
+  height: 10.5vh;
+  transition: 0.6s;
+}
+
+.lottie {
+  position: absolute;
+  left: 1.7vw;
+  top: 18vh;
+  z-index: 1;
+  scale: 1.4;
+}
+
+
+.Lottie h3 {
+  position: absolute;
+  color: white;
+  left: 4vw;
+  top: 16.3vh;
+  font-weight: 500;
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+.Lottie h5 {
+  position: absolute;
+  color: #8786AB;
+  left: 9vw;
+  top: 16vh;
+  font-weight: 300;
+  font-size: 0.850rem;
+}
+
+.Lottie h4 {
+  position: absolute;
+  color: #7D7CAF;
+  left: 4vw;
+  top: 18.7vh;
+  font-weight: 500;
+  font-size: 0.950rem;
+}
+
+.Lottie p {
+  position: absolute;
+  color:#50E3C2;
+  left: 4vw;
+  top: 22vh;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.Lottie h2 {
+  position: absolute;
+  left: 7.5vw;
+  top: 22.2vh;
+  color: #FFFFFF;
+  opacity: 0.2;
+  font-size: 0.9rem;
+}
+
+.Lottie a {
+  position: absolute;
+  left: 13.8vw;
+  top: 23.2vh;
+  font-size: 0.9rem;
+  color: #70B2FF;
+  text-decoration: none;
+}
+
+.Lottie a:hover {
+  text-decoration: underline;
+}
+
+.Lottie h1 {
+  position: absolute;
+  color:  #59588D;
+  left: 4vw;
+  top: 25vh;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+
+.Lottie:hover{
+  background-color: rgb(29, 26, 65);
+  cursor: pointer;
+}
+
+
+.Btc {
+  width: 100%;
+  height: 13.5vh;
+  transition: 0.6s;
+  position: absolute;
+}
+
+.btC {
+  position: absolute;
+  left: 1.7vw;
+  top: 4vh;
+  z-index: 1;
+  scale: 1.5;
+}
+
+.Btc h3 {
+  position: absolute;
+  color: white;
+  left: 4.1vw;
+  top: 2vh;
+  font-weight: 500;
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+.Btc h5 {
+  position: absolute;
+  color: #8786AB;
+  left: 6vw;
+  top: 1.8vh;
+  font-weight: 300;
+  font-size: 0.850rem;
+}
+
+.Btc h4 {
+  position: relative;
+  color: #7D7CAF;
+  left: 4.1vw;
+  top: 4.5vh;
+  font-weight: 500;
+  font-size: 0.950rem;
+}
+
+.Btc p {
+  position: relative;
+  color:#50E3C2;
+  left: 8vw;
+  top: 4.1vh;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+
+.Btc a {
+  position: absolute;
+  left: 16vw;
+  top: 8.8vh;
+  font-size: 0.9rem;
+  color: #70B2FF;
+  text-decoration: none;
+}
+
+.Btc a:hover {
+  text-decoration: underline;
+}
+
+.Btc h1 {
+  position: absolute;
+  color:  #59588D;
+  left: 4.2vw;
+  top: 11vh;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.Btcxazi {
+  position: absolute;
+  top: 7.2vh;
+  left: 4.3vw;
+  scale: 1.2;
+}
+
+.Btcarrow {
+  position: absolute;
+  top: 9.2vh;
+  left: 7.1vw;
+  scale: 1.4;
+}
+
+.Btc:hover{
+  background-color: rgb(29, 26, 65);
+  cursor: pointer;
+}
+
+.danny {
+  position: absolute;
+  left: 1.6vw;
+  top: 43vh;
+  scale: 1.5;
+}
+
+
+.Danny h3 {
+  position: absolute;
+  color:white;
+  opacity: 0.8;
+  left: 4.2vw;
+  bottom: 16.5vh;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.Danny h5 {
+  position: absolute;
+  color: #8786AB;
+  left: 9.4vw;
+  bottom: 16.2vh;
+  font-weight: 300;
+  font-size: 0.850rem;
+}
+
+.Danny h4 {
+  position: absolute;
+  color: #7D7CAF;
+  left: 4.2vw;
+  bottom: 14vh;
+  font-weight: 500;
+  font-size: 0.950rem;
+}
+
+
+.Danny h1 {
+  position: absolute;
+  color:  #59588D;
+  left: 4.3vw;
+  bottom: 12vh;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.Danny a {
+  position: absolute;
+  left: 9vw;
+  bottom: 3vh;
+  font-size: 0.9rem;
+  color: #70B2FF;
+  text-decoration: none;
+}
+
+.Danny a:hover {
+  text-decoration: underline;
+}
+
+.Danny:hover{
+  background-color: rgb(29, 26, 65);
+  cursor: pointer;
+}
+
+.ETHbox {
+  background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(40, 38, 89, 0.50218) 99.53%);
+  backdrop-filter: blur(20.91519546508789px);
+  box-shadow: -30.86px 42.08px 84.15px 0px #17122B;
+  width: 25vw;
+  height: 7vh;
+  position: absolute;
+  bottom: -9vh;
+  left: -2vw;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.ethbox {
+  position: absolute;
+  left: 1.2vw;
+  top: 1.2vw;
+  scale: 1.2;
+}
+
+.ETHbox p {
+  position: absolute;
+  color: #7877B1;
+  font-size: 1.3rem;
+  top: 1vh;
+  left: 4vw;
+  width: 8vw;
+}
+
+.ETHbox h3 {
+  color: #E3507A;
+  position: absolute;
+  left: 15vw;
+  top: 1.5vh;
+  font-weight: 400;
+}
+
+.ETHbox h4 {
+  color: #6F6EA4;
+  position: absolute;
+  left: 19vw;
+  top: 1vh;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.bottom h3 {
+  color: #B1AFCD;
+  position: absolute;
+  bottom: -13vh;
+  right: 104vh;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.bottom h4 {
+  color: #B1AFCD;
+  position: absolute;
+  bottom: -13vh;
+  font-size: 0.9rem;
+  font-weight: 300;
+  z-index: 1;
+}
+
+.bottom h5 {
+  color: #B1AFCD;
+  position: absolute;
+  bottom: -13.3vh;
+  left: 11.5vw;
+  font-size: 0.9rem;
+  font-weight: 300;
+  z-index: 1;
+}
